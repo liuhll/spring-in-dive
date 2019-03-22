@@ -1,0 +1,7 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.liuhll.springbootindive.context.AfterHelloWorldApplicationContenxtInitalizer,\
+com.liuhll.springbootindive.context.HelloWorldApplicationContextInitalizer
+
+org.springframework.context.ApplicationListener=\
+com.liuhll.springbootindive.listener.AfterHelloWorldApplicationListener,\
+com.liuhll.springbootindive.listener.HelloWorldApplicationListener
