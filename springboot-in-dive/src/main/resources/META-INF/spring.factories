@@ -4,4 +4,5 @@ com.liuhll.springbootindive.context.HelloWorldApplicationContextInitalizer
 
 org.springframework.context.ApplicationListener=\
 com.liuhll.springbootindive.listener.AfterHelloWorldApplicationListener,\
-com.liuhll.springbootindive.listener.HelloWorldApplicationListener
+com.liuhll.springbootindive.listener.HelloWorldApplicationListener,\
+com.liuhll.springbootindive.listener.BeforeConfigFileApplicationListener  

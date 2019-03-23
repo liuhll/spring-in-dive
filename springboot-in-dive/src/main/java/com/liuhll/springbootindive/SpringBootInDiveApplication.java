@@ -1,5 +1,6 @@
 package com.liuhll.springbootindive;
 
+import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -19,6 +20,7 @@ public class SpringBootInDiveApplication {
         SpringApplication application = new SpringApplication();
         application.setSources(sources);
         application.setWebApplicationType(WebApplicationType.SERVLET);
+        application.setBannerMode(Banner.Mode.OFF);
         application.run(args);
 
     }
